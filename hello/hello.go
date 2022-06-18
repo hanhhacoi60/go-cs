@@ -18,5 +18,6 @@ var alex = User{}
 
 // Hello writes a welcome string
 func Hello() string {
-	return "Hello, " + alex.Name
+	greeting := "Hello, "
+	return greeting + alex.Name
 }
